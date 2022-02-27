@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="Sitios web de prueba para buscadores">
+        <meta name="keywords" content="Personas, Pacientes, Salud">
+        <meta name="author" content="Edison Jimenez">        
+        <title>Centro Médico - Formulario de Salud</title>
+    </head>
+    <body>
+        <form action="mailto:ejimenez@greensqa.com" method="post" enctype="text/plain"> <!--enctype="text/plain sirve para evitar caracteres extraños -->
+                <h1>FORMULARIO DE EJEMPLO CON DIFERENTES ELEMENTOS</h1>
+                <h3>Lista desplegable</h3>
+                <label>Médico Favorito:</label>
+                <input list="Medicos" name="listaMedicos" />
+                <datalist id="Medicos">
+                    <option label="Doctor No" value="Doctor No">
+                    <option label="Doctor Si" value="Doctor si">
+                    <option label="Doctor Hulk" value="Doctor Hulk">
+                </datalist>
+                <br>
+                <br>
+                <label>Entrada de texto con bontón de envío:</label>
+                <input type="text"><br><br>
+                <textarea name="textoFormularioSalud" rows="10" cols="30"></textarea><br><br>
+                <input type="submit">
+        </form>
+    </body>
+</html>                
